@@ -10,8 +10,8 @@
 public class Prueba {
 
     public static void main (String David []) {
-    	Ejercicio ejercicio = new Ejercicio ("David", "Eliel");
-    	ejercicio.juega();
-    	System.out.println(ejercicio.score());
+    	Ejercicio formulario1=new Ejercicio("David","Eliel");
+        formulario1.setBounds(100,100,450,350);
+        formulario1.setVisible(true);
     }
 }
