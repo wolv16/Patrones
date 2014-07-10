@@ -2,7 +2,7 @@
  * @(#)Ejercicio.java
  *
  *
- * @author 
+ * @author David Ramirez
  * @version 1.00 2014/7/8
  */
 import javax.swing.JOptionPane;
