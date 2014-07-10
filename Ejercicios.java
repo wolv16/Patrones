@@ -31,14 +31,15 @@ public class Ejercicio extends JFrame implements ActionListener {
     }
     
     public void actionPerformed(ActionEvent e) {
-    	if (puntosA < 60 && puntosB < 60){
+    	if ((puntosA <= 60) && (puntosB <= 60)){
 	        if (e.getSource()==boton2) {
 	            juega(2);
 	        }
 	        if (e.getSource()==boton1) {
 	            juega(1);
 	        }
-    	}else{
+    	}
+    	if ((puntosA == 70) || (puntosB == 70)){
     	   	if (puntosA > puntosB){
 	    		System.out.println(nombreA+" "+frases[8]);
 	    	}
@@ -107,17 +108,20 @@ public class Ejercicio extends JFrame implements ActionListener {
     	if(puntosA <= 15){
     		puntosA += 15;
     	}
-    	else
+    	else{    	
     		puntosA += 10;
+    	}
     }
     
     public void puntoB(){
     	if(puntosB <= 15){
     		puntosB += 15;
     	}
-    	else
+    	else{
     		puntosB += 10;
+    	}
     }
+    
     public String score(){
     	return "player 1: "+puntosA+" -- player 2: "+puntosB;
     }
