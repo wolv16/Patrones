@@ -5,8 +5,11 @@ public class Ejercicio extends JFrame implements ActionListener {
 	private int puntosB;
 	private String nombreA;
 	private String nombreB;
-	private String frases[] = {"love","all","deuce","fifteen","thirty","fourty","adventages player 1"
-								,"adventages player 2","wins"};
+	private String frases[] = {"Cero","Iguales","Empate","Quince","Treinta","Cuarenta","Ventaja jugador 1"
+	,"Ventaja Jugador 2","Gana!",
+        "Love","All","Deuce","Fifteen","Thirty","Fourty","Adventages Player 1","Adventages Player 2","Wins",
+        "Zéro","Égal","Deuce","Quize","Trente","Quarante","Aventage Player 1","Aventage Player 2","Victories"};
+        
     JButton boton1;
     JButton boton2;
     
